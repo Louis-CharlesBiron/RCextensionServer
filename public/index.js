@@ -1,7 +1,7 @@
 //WINDOWS: {"url":"https://www.pointercrate.com/demonlist/","focused":true,"height":500,"width":500,"left":100,"top":100,"state":"normal","type":"normal"}
 
 'use strict'
-let ws = new WebSocket("ws://" + (location.host||"10.0.0.67:3000")),
+let ws = new WebSocket("wss://rcextensionserver.onrender.com"),
     clients = [],
     messageFilter = ["activeUsers"]
 
